@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minecraft Build Guide</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="topbar">
+        <div class="brand" aria-label="Logo do app">
+          <div class="brand-badge">⬛</div>
+          <span>Minecraft Build Guide</span>
+        </div>
+
+        <div class="search-wrap">
+          <input
+            id="searchInput"
+            class="search-input"
+            type="text"
+            placeholder="Buscar construção..."
+            aria-label="Buscar construção"
+          />
+        </div>
+      </header>
+
+      <section class="hero">
+        <h1>Construções incríveis passo a passo</h1>
+        <p>
+          Explore tutoriais de casas, torres, portais, fazendas e estruturas épicas do Minecraft com explicações visuais por etapas.
+        </p>
+      </section>
+
+      <main>
+        <div id="cardGrid" class="grid" aria-live="polite"></div>
+        <div id="emptyState" class="empty">Nenhuma construção encontrada com esse termo.</div>
+      </main>
+
+      <section id="tutorialPanel" class="tutorial-panel" aria-live="polite"></section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
